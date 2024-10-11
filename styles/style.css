@@ -1,0 +1,111 @@
+/* Base */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* Layout */
+
+/* Container */
+.container {
+    width: 45%;
+    height: inherit;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    background: lightskyblue;
+    height: 10%;
+}
+
+/* Hero, Main, Sidebar, Extra Content Layout */
+
+.hero-main-sidebar-extra-wrapper {
+    display: flex;
+    height: 60%;
+}
+
+.hero-sidebar-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.hero-content-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 4;
+}
+
+/* Hero */
+
+.hero {
+    background-color: lightgrey;
+    height: 40%;
+}
+
+/* Main */
+
+main {
+    background-color: orange;
+    height: 70%;
+}
+
+/* Sidebar */
+
+.sidebar {
+    background-color: yellowgreen;
+    height: 60%;
+}
+
+/* Extra Content */
+
+.extra-content {
+    background-color: gray;
+    height: 30%;
+}
+
+/* Related Images, Related Posts Layout */
+
+.images-posts-wrapper {
+    height: 20%;
+    display: flex;
+}
+
+/* Related Images */
+
+.related-images {
+    background-color: green;
+    height: 100%;
+    flex-grow: 2.5;
+}
+
+/* Related Posts */
+
+.related-posts {
+    background-color: pink;
+    height: 100%;
+    flex-grow: 1;
+}
+
+/* Footer */
+
+footer {
+    background-color: darkorange;
+    height: 10%;
+}
